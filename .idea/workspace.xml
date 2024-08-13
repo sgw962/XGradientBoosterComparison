@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a30a0f36-9ca2-4d1a-aef5-5a26d5db3694" name="Changes" comment="" />
+    <list default="true" id="a30a0f36-9ca2-4d1a-aef5-5a26d5db3694" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/individual_project/src/models/model_building.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/individual_project/src/models/regression_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/individual_project/src/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/individual_project/src/data/classification_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/individual_project/src/models/predict_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/individual_project/src/data/regression_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/individual_project/src/models/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/individual_project/src/models/classification_model.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2iVSRtoPNAT8hY4lXVMkXM4wEgp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -18,9 +44,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.classification_data.executor": "Run",
+    "Python.classification_model.executor": "Run",
+    "Python.model_building.executor": "Run",
+    "Python.regression_data.executor": "Run",
+    "Python.regression_model.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -39,8 +79,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719574247397</updated>
-      <workItem from="1719574252720" duration="3000" />
+      <workItem from="1719574252720" duration="1593000" />
+      <workItem from="1719576241589" duration="304000" />
+      <workItem from="1721121963482" duration="576000" />
+      <workItem from="1721780333638" duration="732000" />
+      <workItem from="1721989536019" duration="3535000" />
+      <workItem from="1722076363019" duration="15686000" />
+      <workItem from="1722631549876" duration="753000" />
+      <workItem from="1722942824780" duration="7902000" />
+      <workItem from="1722966521781" duration="9201000" />
+      <workItem from="1723154162886" duration="10087000" />
+      <workItem from="1723475143841" duration="12397000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1719574954487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719574954487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$test.coverage" NAME="test Coverage Results" MODIFIED="1722077231604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$model_building.coverage" NAME="model_building Coverage Results" MODIFIED="1723507787741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$regression_model.coverage" NAME="regression_model Coverage Results" MODIFIED="1722261903976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$classification_data.coverage" NAME="classification_data Coverage Results" MODIFIED="1722946310041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$regression_data.coverage" NAME="regression_data Coverage Results" MODIFIED="1723508670962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$classification_model.coverage" NAME="classification_model Coverage Results" MODIFIED="1722442652757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
   </component>
 </project>
