@@ -309,8 +309,8 @@ class ClassificationModel(BaseModel):
         plt.show()
 
 #data = pd.read_excel('/Users/seanwhite/OneDrive - University of Greenwich/Documents/Individual Project/Individual_Project_Code/individual_project/data/FTSE100 Classification Data.xlsx')
-data = pd.read_excel('/Users/seanwhite/OneDrive - University of Greenwich/Documents/Group Project/group_project_code/data/stocks & trends/Ocado Stock & trends.xlsx')
-create_model = RegressionModel(data, 'Ocado', 'dart', 'Next Day Close')
+data = pd.read_excel('/Users/seanwhite/OneDrive - University of Greenwich/Documents/Individual Project/Individual_Project_Code/individual_project/data/FTSE100 Regression Data.xlsx')
+create_model = RegressionModel(data, 'FTSE100', 'gblinear', 'Next Day Close')
 #create_model.engineer_features()
 
 create_model.split_data(0.8, 0.1, 0.1)
