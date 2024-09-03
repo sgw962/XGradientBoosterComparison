@@ -30,7 +30,7 @@ def run_model(data_name, booster_type, model_type):
 
     create_model.split_data(0.8, 0.1, 0.1)
     create_model.train_model()
-    #create_model.get_metrics_dataframe()
+    create_model.get_metrics_dataframe()
 
 
 if __name__ == '__main__':

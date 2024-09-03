@@ -2,12 +2,10 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
-from sklearn.metrics import make_scorer, confusion_matrix, ConfusionMatrixDisplay, roc_curve, auc
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, roc_curve, auc
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error, mean_absolute_percentage_error
 from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score
 from xgboost import XGBRegressor, XGBClassifier
-import seaborn as sns
 from abc import ABC, abstractmethod
 
 class BaseModel(ABC):

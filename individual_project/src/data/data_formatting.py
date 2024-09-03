@@ -30,10 +30,8 @@ class DataFormat(ABC):
 
     def get_trends(self):
         self.keywords = [i.title() for i in self.keywords]
-        vader_lexicon_path = '/Users/seanwhite/OneDrive - University of Greenwich/Documents/Group Project/group_project_code/vader_lexicon.txt'
-        sia = SentimentIntensityAnalyzer(
-            lexicon_file=vader_lexicon_path
-        )
+        vader_lexicon_path = '/Users/seanwhite/OneDrive - University of Greenwich/Documents/Individual Project/Individual_Project_Code/individual_project/vader_lexicon.txt'
+        sia = SentimentIntensityAnalyzer(lexicon_file=vader_lexicon_path)
 
         pytrends = TrendReq(hl='en-Uk', tz=60)
 

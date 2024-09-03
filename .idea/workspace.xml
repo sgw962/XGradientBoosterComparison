@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a30a0f36-9ca2-4d1a-aef5-5a26d5db3694" name="Changes" comment="Created joint use for both models in one script and appropriate data for both model types to use">
+    <list default="true" id="a30a0f36-9ca2-4d1a-aef5-5a26d5db3694" name="Changes" comment="Changed the file structure and slim-lined to keep only what is necessary">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/models/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/notebooks/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/references/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/reports/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/reports/figures/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/data/classification_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/data/regression_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/features/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/features/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/features/build_features.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/models/classification_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/models/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/models/regression_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/visualization/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/visualization/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/individual_project/src/visualization/visualize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/individual_project/src/data/data_formatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/individual_project/src/data/data_formatting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/individual_project/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/individual_project/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/individual_project/src/models/model_building.py" beforeDir="false" afterPath="$PROJECT_DIR$/individual_project/src/models/model_building.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +106,7 @@
       <workItem from="1725037153761" duration="3867000" />
       <workItem from="1725296248931" duration="5640000" />
       <workItem from="1725366407946" duration="1505000" />
-      <workItem from="1725403789988" duration="634000" />
+      <workItem from="1725403789988" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -153,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725403950750</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changed the file structure and slim-lined to keep only what is necessary">
+      <option name="closed" value="true" />
+      <created>1725406305790</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725406305791</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,13 +157,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Created joint use for both models in one script and appropriate data for both model types to use" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created joint use for both models in one script and appropriate data for both model types to use" />
+    <MESSAGE value="Changed the file structure and slim-lined to keep only what is necessary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the file structure and slim-lined to keep only what is necessary" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Individual_Project_Code$data_formatting.coverage" NAME="data_formatting Coverage Results" MODIFIED="1723921346058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
     <SUITE FILE_PATH="coverage/Individual_Project_Code$get_visualisations.coverage" NAME="get_visualisations Coverage Results" MODIFIED="1725300177167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/notebooks" />
     <SUITE FILE_PATH="coverage/Individual_Project_Code$test.coverage" NAME="test Coverage Results" MODIFIED="1722077231604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
-    <SUITE FILE_PATH="coverage/Individual_Project_Code$main.coverage" NAME="main Coverage Results" MODIFIED="1725403889311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$main.coverage" NAME="main Coverage Results" MODIFIED="1725406201306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src" />
     <SUITE FILE_PATH="coverage/Individual_Project_Code$model_building.coverage" NAME="model_building Coverage Results" MODIFIED="1725297604304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
     <SUITE FILE_PATH="coverage/Individual_Project_Code$regression_model.coverage" NAME="regression_model Coverage Results" MODIFIED="1722261903976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
     <SUITE FILE_PATH="coverage/Individual_Project_Code$classification_data.coverage" NAME="classification_data Coverage Results" MODIFIED="1722946310041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
