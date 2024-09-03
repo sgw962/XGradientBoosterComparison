@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a30a0f36-9ca2-4d1a-aef5-5a26d5db3694" name="Changes" comment="Created joint use for both models in one script and appropriate data for both model types to use">
+      <change afterPath="$PROJECT_DIR$/individual_project/src/data/data_formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/individual_project/src/models/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/individual_project/src/models/model_building.py" beforeDir="false" afterPath="$PROJECT_DIR$/individual_project/src/models/model_building.py" afterDir="false" />
     </list>
@@ -36,28 +38,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.classification_data.executor": "Run",
-    "Python.classification_model.executor": "Run",
-    "Python.model_building.executor": "Run",
-    "Python.regression_data.executor": "Run",
-    "Python.regression_model.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.classification_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classification_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_formatting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_visualisations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_building.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regression_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regression_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +88,24 @@
       <workItem from="1722942824780" duration="7902000" />
       <workItem from="1722966521781" duration="9201000" />
       <workItem from="1723154162886" duration="10087000" />
-      <workItem from="1723475143841" duration="12713000" />
+      <workItem from="1723475143841" duration="14108000" />
+      <workItem from="1723732120946" duration="4408000" />
+      <workItem from="1723761361429" duration="832000" />
+      <workItem from="1723803602742" duration="11954000" />
+      <workItem from="1723837062832" duration="3386000" />
+      <workItem from="1723920762759" duration="1829000" />
+      <workItem from="1723990530207" duration="10154000" />
+      <workItem from="1724075496585" duration="750000" />
+      <workItem from="1724337687407" duration="3139000" />
+      <workItem from="1724418881633" duration="8528000" />
+      <workItem from="1724765939517" duration="562000" />
+      <workItem from="1724768826741" duration="1146000" />
+      <workItem from="1724935235352" duration="7468000" />
+      <workItem from="1725021333343" duration="1941000" />
+      <workItem from="1725031382438" duration="817000" />
+      <workItem from="1725037153761" duration="3867000" />
+      <workItem from="1725296248931" duration="5640000" />
+      <workItem from="1725366407946" duration="1505000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -101,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723508815658</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created joint use for both models in one script and appropriate data for both model types to use">
+      <option name="closed" value="true" />
+      <created>1723509035973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723509035973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,8 +143,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created joint use for both models in one script and appropriate data for both model types to use" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$data_formatting.coverage" NAME="data_formatting Coverage Results" MODIFIED="1723921346058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$get_visualisations.coverage" NAME="get_visualisations Coverage Results" MODIFIED="1725300177167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/notebooks" />
     <SUITE FILE_PATH="coverage/Individual_Project_Code$test.coverage" NAME="test Coverage Results" MODIFIED="1722077231604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
-    <SUITE FILE_PATH="coverage/Individual_Project_Code$model_building.coverage" NAME="model_building Coverage Results" MODIFIED="1723508960200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$main.coverage" NAME="main Coverage Results" MODIFIED="1725040626540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
+    <SUITE FILE_PATH="coverage/Individual_Project_Code$model_building.coverage" NAME="model_building Coverage Results" MODIFIED="1725297604304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
     <SUITE FILE_PATH="coverage/Individual_Project_Code$regression_model.coverage" NAME="regression_model Coverage Results" MODIFIED="1722261903976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/models" />
     <SUITE FILE_PATH="coverage/Individual_Project_Code$classification_data.coverage" NAME="classification_data Coverage Results" MODIFIED="1722946310041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
     <SUITE FILE_PATH="coverage/Individual_Project_Code$regression_data.coverage" NAME="regression_data Coverage Results" MODIFIED="1723508670962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/individual_project/src/data" />
